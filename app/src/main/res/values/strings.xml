@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">vazid_s_application</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+<string name="msg_please_enter_yo">Please enter your mobile number</string>
+<string name="lbl_continue">CONTINUE</string>
+<string name="msg_didn_t_receive">Didn\u2019t receive the code? Request Again</string>
+<string name="lbl_transporter">Transporter</string>
+<string name="lbl_91">+91</string>
+<string name="lbl_mobile_number">Mobile Number</string>
+<string name="msg_you_can_change">You can change the language
+at any time.</string>
+<string name="lbl_next">NEXT</string>
+<string name="lbl_english">English</string>
+<string name="lbl_request_again">Request Again</string>
+<string name="msg_you_ll_receive">You\u2019ll receive a 4 digit code
+to verify next.</string>
+<string name="lbl_verify_phone">Verify Phone</string>
+<string name="msg_code_is_sent_to">Code is sent to 8094508485</string>
+<string name="msg_verify_and_cont">VERIFY AND CONTINUE</string>
+<string name="msg_lorem_ipsum_dol">Lorem ipsum dolor sit amet, 
+consectetur adipiscing</string>
+<string name="lbl_shipper">Shipper</string>
+<string name="lbl_liveasy">LIVEASY</string>
+<string name="msg_please_select_y">Please select your Language</string>
+<string name="msg_please_select_y2">Please select your profile</string>
+<string name="lbl">-</string>
+<string name="msg_didn_t_receive2">Didn\u2019t receive the code? </string>
+</resources>

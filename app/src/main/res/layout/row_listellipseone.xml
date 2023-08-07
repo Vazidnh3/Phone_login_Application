@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="listellipseoneRowModel" type="com.vazidsapplication.app.modules.profileselection.data.model.ListellipseoneRowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearRowellipseone"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal" style="@style/groupStyle">
+        <View
+            android:background="@drawable/rectangle_border_black_900_radius_12"
+            android:id="@+id/viewEllipseOne"
+            android:layout_height="@dimen/_24pxh"
+            android:layout_marginBottom="@dimen/_33pxv"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_32pxv" android:layout_width="@dimen/_24pxh"/>
+        <ImageView android:id="@+id/imageHome"
+            android:layout_height="@dimen/_40pxh"
+            android:layout_marginBottom="@dimen/_25pxv"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_24pxv"
+            android:layout_width="@dimen/_40pxh"
+            android:scaleType="fitXY" android:src="@drawable/img_home"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_home"/>
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearColumnshipper"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_13pxv"
+            android:layout_marginEnd="@dimen/_64pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_17pxv"
+            android:layout_weight="0.7" android:layout_width="0dp" android:orientation="vertical">
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtShipper"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_width="wrap_content"
+                android:letterSpacing="0.0" android:singleLine="true"
+                android:text="@{listellipseoneRowModel.txtShipper}"
+                style="@style/txtRobotoregular18" tools:text="@string/lbl_shipper"/>
+            <TextView android:gravity="center_horizontal"
+                android:id="@+id/txtLoremipsumdol"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4pxv"
+                android:layout_width="match_parent"
+                android:letterSpacing="0.0"
+                android:text="@{listellipseoneRowModel.txtLoremipsumdol}"
+                style="@style/txtRobotoregular12" tools:text="@string/msg_lorem_ipsum_dol"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>
